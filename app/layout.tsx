@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased ${splinesans.className}`}
+        className={`antialiased ${splinesans.className} bg-slate-100 min-h-screen text-slate-500`}
       >
         {children}
       </body>
